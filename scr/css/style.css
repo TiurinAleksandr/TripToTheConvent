@@ -1,0 +1,107 @@
+
+// Секция 1 - Титульный лист
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+nav{
+    background-color: #204a6c;
+}
+
+
+.menu li{
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    font-family: Forum Regular, Forum, serif;
+    
+    margin-left: 90px;
+}
+
+
+.menu{
+    padding-top: 22px;
+    margin-left: 415px;
+    width: 1090px;
+    height: 60px;
+    position: fixed;
+}
+
+
+
+
+
+main{
+    width: 100%;
+    height: 100%;
+    
+    background-color: #eee;
+    background-image: url(../img/mainFon2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.blackPad{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 10, 30, .65);
+    backdrop-filter: blur(7px);
+    
+    padding-top: 210px;
+}
+
+main h1{
+    font-family: Forum Regular, Forum, serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 85px;
+    line-height: 100px;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.blackPad p{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    margin-top: 85px;
+}
+
+.blackPad button{
+    width: 650px;
+    height: 70px;
+    color: #fff;
+    background-color: #204a6c;
+    font-size: 30px;
+    font-family: Gilroy, Sample;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 220px;
+    margin-left: 635px;
+    border: 1px solid #fff;
+}
+
+.arrowDown{
+    width: 75px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 924px;
+}
+
+
+
+
+
+
+
+
+
+
+
+// Секция 2 - В монастыре доступно
+
+
