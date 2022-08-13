@@ -1,107 +1,103 @@
-
-// Секция 1 - Титульный лист
-
-header{
+/*header*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    font-family: 'Forum', cursive;
+}
+.menu {
     width: 100%;
     height: 60px;
-}
-
-nav{
-    background-color: #204a6c;
-}
-
-
-.menu li{
-    text-align: center;
-    float: left;
-    font-size: 20px;
-    color: #fff;
-    font-family: Forum Regular, Forum, serif;
-    
-    margin-left: 90px;
-}
-
-
-.menu{
-    padding-top: 22px;
-    margin-left: 415px;
-    width: 1090px;
-    height: 60px;
+    padding: 20px 400px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #255174;
+    border-bottom: 1.5px solid #fff;
     position: fixed;
-}
+    z-index: 1;
 
-
-
-
-
-main{
-    width: 100%;
-    height: 100%;
-    
-    background-color: #eee;
-    background-image: url(../img/mainFon2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.blackPad{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 10, 30, .65);
-    backdrop-filter: blur(7px);
-    
-    padding-top: 210px;
-}
-
-main h1{
-    font-family: Forum Regular, Forum, serif;
-    font-weight: 300;
-    text-align: center;
-    font-size: 85px;
-    line-height: 100px;
-    color: #fff;
-    padding-top: 50px;
-}
-
-.blackPad p{
-    font-size: 30px;
-    text-align: center;
-    color: #fff;
-    margin-top: 85px;
-}
-
-.blackPad button{
-    width: 650px;
-    height: 70px;
-    color: #fff;
-    background-color: #204a6c;
-    font-size: 30px;
-    font-family: Gilroy, Sample;
+    font-size: 20px;
     font-weight: bold;
-    border-radius: 3px;
-    margin-top: 220px;
-    margin-left: 635px;
-    border: 1px solid #fff;
+    color: #fff;
 }
 
-.arrowDown{
-    width: 75px;
+
+
+/*main-screen*/
+.main-screen {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/mainFon2.jpg) no-repeat bottom;
+    background-size: cover;
+
+    font-family: 'Forum', cursive;
+    color: #fff;
+}
+.overlay {
+    height: 100%;
+    background-color: rgba(6, 12, 39, 0.65);
+    backdrop-filter: blur(8px);
+
+    display: flex;
+    flex-direction: column;
+}
+.content-title {
+    width: 75%;
+    margin: auto;
+
     text-align: center;
-    margin-top: 100px;
-    margin-left: 924px;
+}
+.header-title {
+    font-size: 100px;
+}
+.button-arrow-content{
+    width: 100%;
+    padding: 65px;
+}
+.button {
+    width: 650px;
+    height: 80px;
+    background-color: #204a6c;
+    display: flex;      
+    margin: auto;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #224f74;
+}
+.button:active{
+    width: 648px;
+    height: 79.6px;
+}
+.button-text {
+    font-size: 35px;
+    font-weight: bold;
+
+    margin: auto;
+}   
+.arrow-down {
+    display: block;
+    margin: auto;
+    padding: 45px;
 }
 
 
 
 
 
+/*available-in-the-convent*/
+.available {
+    width: 100%;
+    height: 100vh;
+}
+.available-title {
+    font-weight: bold;
+    font-size: 50px;
 
-
-
-
-
-
-// Секция 2 - В монастыре доступно
-
+}
+.available-list {
+    font-weight: lighter;
+    font-size: 30px;   
+}
 
