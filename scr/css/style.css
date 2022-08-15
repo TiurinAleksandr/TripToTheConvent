@@ -89,15 +89,61 @@ body {
 /*available-in-the-convent*/
 .available {
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gilroy', sans-serif;
+}
+.available-content {
+    width: 800px;
+    height: 500px;
+    background: #fff;
+    margin: auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 .available-title {
     font-weight: bold;
     font-size: 50px;
-
+    padding-bottom: 50px;
 }
 .available-list {
-    font-weight: lighter;
-    font-size: 30px;   
+    font-weight: normal;
+    font-size: 30px; 
+    margin: 0 auto 0 0;
+}
+.available-list li {
+    margin-bottom: 20px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.available-pictures {
+    width: 602px;
+    height: 602px;
+    margin: auto 0;
+    background: url(../img/avalable_img1.png) no-repeat ,
+                url(../img/avalable_img2.png) 100% 0% no-repeat ,
+                url(../img/avalable_img3.png) 0% 100% no-repeat ,
+                url(../img/avalable_img4.png) 100% 100% no-repeat ;
 }
 
+
+
+
+/*anketa*/
+.anketa {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gilroy', sans-serif;
+    background-color: #1b446e;
+    padding: 85px 75px;
+}
+.anketa-content {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 30px;
+}
