@@ -34,19 +34,19 @@
     </header>
 
 
-  <!--main-screen 
+  <!--main-screen -->  
     <section class="main-screen">
       <div class="overlay">
         <div class="content-title">
           <h1 class="header-title">Поездка в Свято-Елисаветинский монастырь</h1>
         </div>
         <div class="button-arrow-content">
-          <div class="button"><p class="button-text">Записаться</p></div>
+          <div class="button button1"><p class="button-text">Записаться</p></div>
           <img class="arrow-down" src="../scr/img/arrow-down.gif" alt="стрелочка вниз :)">
         </div>
       </div>
     </section>
-  -->    
+    
     
     
     <!-- available-in-the-convent -->
@@ -67,17 +67,22 @@
     
     <!-- anketa -->
     <div class="anketa">
-      <div class="anketa-content">
-        <h3>Для участия, заполните анкету</h3>
-        <form name="anketa" action="">
-          <p>Как Вас зовут?</p>
-          <input class="fio" type="text" placeholder="ФИО"><br>
-          <p>Ваш номер телефона:</p>
-          <input class="tel" type="tel" placeholder="Номер телефона"><br>
-          <p>Выберите место:</p>
-          <div class="place"></div>
-          <div class="button"><p class="button-text">Записаться</p></div>
-        </form>
+      <div class="white-window">
+        <div class="anketa-content">
+          <h3 class="anketa-title">Записаться на поездку</h3>
+          <p class="number-of-seats">Мест осталось: </p><p class="number-of-seats number-of-seats-count"></p>
+
+          <form class= "anketa-form" name="anketa" action="">
+            <p class="form-name">Ваше имя</p>
+            <input class="form fio" type="text" placeholder=""><br>
+            <p class="form-name">Ваш телефон</p>
+            <input class="form tel" type="tel" placeholder=""><br>
+            <p class="form-name">Откуда Вас забрать?</p>
+            <input class="form place" type="text"></input>
+            <div class="button"><p class="button-text">Записаться</p></div>
+          </form>
+
+        </div>
       </div>
       
     </div>
